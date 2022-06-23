@@ -1,3 +1,8 @@
 var "api_token" {
-  # stuff goes here 
+  type = string
+}
+
+var "email" {
+  default = "xyzflop@gmail.com"
+  type = string
 }
